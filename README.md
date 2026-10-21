@@ -1,4 +1,4 @@
-# workflow-kit
+# Seminar-Einschreibung
 
 Vorlage für ein Agentic-Engineering-Projekt in der Lehre.
 Entsteht im Projektseminar Agentic Engineering an der HTW Dresden (WS 2026/27).
