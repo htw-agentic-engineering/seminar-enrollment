@@ -1,6 +1,6 @@
 # Spezifikation: Erst-, Zweit- und Drittwunsch auswählen
 
-> **Status:** Entwurf
+> **Status:** In Review
 > **Feature-Issue:** #7
 > **Verantwortlich:** Etienne
 
@@ -52,8 +52,7 @@ Studierende müssen ihre Wahlpflichtmodule für das Semester auswählen und prio
 - Bestätigungs-E-Mail an Studierende – On-Screen-Bestätigung ist in AK1 abgedeckt
 
 ## Offene Fragen
-- [ ] Was passiert, wenn ein Modul nach der Wahl abgesagt wird?
-- [ ] Was passiert, wenn weniger als drei Module zur Auswahl stehen?
+— keine —
 
 ## Entscheidungen
 | Nr. | Entscheidung | Wer | Datum | Begründung | Verworfene Alternativen |
@@ -61,6 +60,8 @@ Studierende müssen ihre Wahlpflichtmodule für das Semester auswählen und prio
 | E1 | R5: Änderung der Modulwahl bis Fristende erlaubt | Etienne | 25.10.2026 | Luca Müllers Persona nennt explizit „flexibel anpassen" als Ziel; Sperrung nach Abgabe würde jeden Tippfehler zu einer Support-Anfrage machen | R5 ursprünglich: keine Änderung nach Abgabe möglich |
 | E2 | Prof. Wiedemanns Admin-Ansicht aus dieser Spec gestrichen | Etienne | 25.10.2026 | Gehört nicht in dieses Feature; separates Feature 009 mit eigenem Issue | Als Story 3 in diese Spec aufgenommen |
 | E3 | WCAG 2.1 AA als Constraint gestrichen | Etienne | 25.10.2026 | Niemand im Projekt hat diese Anforderung gestellt; eine Spec-Verpflichtung die nie geprüft wird ist schlechter als keine | Als Constraint C3 im Entwurf enthalten |
+| E4 | Seminar-Absage nach Einschreiben: kein Handlungsbedarf | Etienne | 26.10.2026 | Wahrscheinlichkeit < 0,1 %; kein Edge Case der spezifiziert oder implementiert werden muss | Als offene Frage im Entwurf geführt |
+| E5 | Weniger als 3 Seminare verfügbar: nicht möglich | Etienne | 26.10.2026 | Das System bietet immer mehr als 3 Seminare an; R1 gilt ohne Ausnahme | Als offene Frage im Entwurf geführt |
 
 ## KI-Unterstützung
 Skill `spec-writer.md` mit Modell `saia/qwen3.5-397b-a17b` (KISSKI/GWDG via OpenCode CLI) im Dialog ausgeführt. 25.10.2026.
