@@ -18,6 +18,13 @@ Oder der Agent erkennt selbst, dass ein Skill passt (z. B. beim Anlegen einer ne
 | Skill | Wann benutzen |
 |-------|---------------|
 | `spec-writer.md` | Wenn eine neue Spezifikation angelegt werden soll |
+| `user-story/SKILL.md` | Wenn eine einzelne User Story mit Akzeptanzkriterien geschrieben werden soll (extern, englisch, siehe Quelle unten) |
+
+## Externe Skills
+
+| Skill | Quelle | Lizenz | Anpassung |
+|-------|--------|--------|-----------|
+| `user-story/` | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story) | CC BY-NC-SA 4.0 | unverändert; Verweise auf Skills, die es hier nicht gibt, werden ignoriert |
 
 ## Neuen Skill hinzufügen
 
