@@ -10,13 +10,21 @@
 
 Eine geschützte Webanwendung, über die berechtigte Studierende verfügbare Projektseminare entdecken, deren Beschreibungen lesen und ihre drei priorisierten Themenwünsche einreichen können. Die Plattform schafft Transparenz über den Bewerbungsprozess und gibt Studierenden Sicherheit darüber, dass ihre Angaben übermittelt wurden. Gleichzeitig unterstützt sie Professoren bei der Verwaltung ihrer Seminarangebote und die Administration bei der strukturierten Vergabe der verfügbaren Plätze.
 
+**Motivation**
+
+Die bisherige Organisation der Projektseminare erfolgte über OPAL. Dabei konnten sich Studierende ab einem festgelegten Zeitpunkt für die Seminare anmelden. Bei besonders gefragten Seminaren hatten häufig diejenigen einen Vorteil, die über eine schnellere Internetverbindung verfügten und sich früher anmelden konnten. Dadurch entstand der Wunsch nach einem faireren Verfahren, bei dem nicht die Geschwindigkeit der Anmeldung, sondern die fachliche Eignung und die Interessen der Studierenden stärker berücksichtigt werden.
+
+Die neue Anwendung soll diesen Prozess verbessern. Studierende können sich über die angebotenen Projektseminare informieren und mehrere Wünsche in einer festgelegten Reihenfolge angeben. Zusätzlich können sie ihre Motivation für den Erstwunsch erläutern. Bei der späteren Verteilung sollen neben den verfügbaren Plätzen insbesondere die fachlichen Interessen, Begründungen und gegebenenfalls vorhandene Berufs- und Praxiserfahrungen der Studierenden berücksichtigt werden.
+
+Ein weiteres Ziel ist es, den organisatorischen Aufwand für den Studiendekan und die beteiligten Professoren zu reduzieren. Durch die Anwendung sollen ausgewählte administrative Aufgaben unterstützt und teilweise automatisiert werden. Dazu könnte beispielsweise die Auswertung der eingereichten Wünsche und die Erstellung von Vorschlägen für eine möglichst passende Verteilung gehören. Die endgültige Entscheidung über die Zuordnung soll weiterhin von den verantwortlichen Personen getroffen werden.
+
 ## Rollen
 
 | Rolle | Was sie mit dem System tut |
 | --- | --- |
 | Studierende | Projektseminare entdecken, PDF-Beschreibungen lesen, Wünsche priorisieren und eine Motivation für den Erstwunsch verfassen. |
-| Professoren | Eigene Projektseminare anlegen und verwalten, Beschreibungen bereitstellen sowie verfügbare Plätze angeben. |
-| Administration | Zugangsberechtigungen verwalten, Bewerbungen und Motivationsschreiben einsehen, Studierende den Seminaren zuordnen und die Ergebnisse verwalten. |
+| Professoren | Projektseminarthemen, Beschreibungen (PDF-Dateien) und verfügbare Plätze an die Administration übermitteln. Bei Bedarf die eingegangenen Wünsche einsehen und an der Zuordnung der Studierenden mitwirken. |
+| Administration (Studiendekan) | Zugangsberechtigungen verwalten, Seminarangebote und Beschreibungen einpflegen, Bewerbungen und Motivationsschreiben einsehen, Studierende unter Berücksichtigung ihrer Wünsche und fachlichen Interessen den Seminaren zuordnen sowie die Ergebnisse verwalten und veröffentlichen. |
 
 ## Problem Statement
 
@@ -96,6 +104,43 @@ Studierende, die sich für ein Projektseminar bewerben müssen, benötigen einen
 | 009 | Bewerbungen einsehen und Studierende zuteilen | Must | # |
 | 010 | Änderungen und Ergebnisse der Vergabe verwalten | Should | # |
 
+## Anmeldung und Zugangsberechtigung
+
+Der Zugang zur Anwendung ist auf berechtigte Studierende beschränkt. Die Anmeldung erfolgt über das LDAP-System der Fakultät. Dabei wird überprüft, ob die eingegebenen Zugangsdaten gültig sind und die Person zur Nutzung der Anwendung berechtigt ist. Ist die Authentifizierung nicht erfolgreich, wird der Zugriff verweigert.
+
+Nur zugelassene Studierendengruppen können ihre Projektseminarwünsche einreichen. Welche Studiengänge und Fachsemester konkret zugelassen sind, muss noch abschließend geklärt werden.
+
+## Kriterien für die Zuordnung der Studierenden
+
+Die Zuordnung der Studierenden zu den Projektseminaren erfolgt durch die Administration (Studiendekan). Dabei werden nicht nur die drei priorisierten Themenwünsche berücksichtigt, sondern auch die fachliche Eignung und die individuelle Motivation der Studierenden.
+
+Bei der Bewertung können unter anderem folgende Kriterien berücksichtigt werden:
+
+- **Priorisierung der Wünsche:** Erst-, Zweit- und Drittwunsch der Studierenden.
+- **Motivationsschreiben:** Qualität und fachlicher Bezug der Begründung für den Erstwunsch.
+- **Berufserfahrung:** Bereits vorhandene Berufserfahrungen, die zum jeweiligen Projektseminar passen.
+- **Berufsinteressen:** Bestehende berufliche Interessen und angestrebte Tätigkeitsbereiche.
+- **Fachlicher Bezug:** Übereinstimmung der bisherigen Erfahrungen und Interessen mit den Inhalten des jeweiligen Projektseminars.
+- **Verfügbare Plätze:** Anzahl der Plätze, die in den einzelnen Projektseminaren zur Verfügung stehen.
+
+Besonders passende Berufserfahrungen und fachliche Interessen können bei der Zuordnung positiv bewertet werden. Studierende mit einer nachvollziehbaren Motivation und einem erkennbaren fachlichen Interesse werden bevorzugt berücksichtigt. Weniger aussagekräftige Begründungen oder ein kaum erkennbares fachliches Interesse können zu einer niedrigeren Priorisierung führen.
+
+Ziel ist eine möglichst faire Verteilung, bei der sowohl die Wünsche der Studierenden als auch die fachliche Passung und die verfügbaren Kapazitäten berücksichtigt werden.
+
+## Potenzial zur Unterstützung durch KI-Agenten
+
+Die Bewertung und Zuordnung der Studierenden zu den Projektseminaren ist mit einem erheblichen organisatorischen Aufwand verbunden. KI-Agenten könnten diesen Prozess unterstützen, indem sie die eingereichten Bewerbungen analysieren und anhand festgelegter Kriterien bewerten.
+
+Mögliche Aufgaben der KI-Agenten:
+
+- Auswertung der Motivationsschreiben hinsichtlich des fachlichen Bezugs zum jeweiligen Seminar.
+- Erkennung relevanter Berufserfahrungen und beruflicher Interessen.
+- Abgleich der Qualifikationen und Interessen der Studierenden mit den Inhalten der Projektseminare.
+- Berücksichtigung der priorisierten Seminarwünsche.
+- Erstellung von Bewertungsvorschlägen anhand definierter Kriterien.
+- Vorschläge für eine möglichst passende Verteilung unter Berücksichtigung der verfügbaren Plätze.
+
+Die KI soll dabei keine endgültigen Entscheidungen treffen, sondern die Administration durch strukturierte Bewertungen und Zuordnungsvorschläge unterstützen. Die finale Entscheidung über die Verteilung bleibt beim Studiendekan.
 ## Umfang
 
 ### Gehört dazu
