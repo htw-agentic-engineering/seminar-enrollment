@@ -93,16 +93,16 @@ Studierende, die sich für ein Projektseminar bewerben müssen, benötigen einen
 
 | Nr. | Feature | Priorität (MoSCoW) | Issue |
 | --- | --- | --- | --- |
-| 001 | Sichere Anmeldung und Prüfung der Zugangsberechtigung | Must | # |
-| 002 | Übersicht der verfügbaren Projektseminare | Must | # |
-| 003 | PDF-Beschreibungen der Projektseminare anzeigen | Must | # |
-| 004 | Erst-, Zweit- und Drittwunsch auswählen | Must | # |
-| 005 | Motivationsschreiben für den Erstwunsch | Must | # |
-| 006 | Bewerbung speichern, überprüfen und verbindlich einreichen | Must | # |
-| 007 | Bewerbungsstatus und eingereichte Wünsche einsehen | Must | # |
-| 008 | Projektseminare und Platzkapazitäten verwalten | Must | # |
-| 009 | Bewerbungen einsehen und Studierende zuteilen | Must | # |
-| 010 | Änderungen und Ergebnisse der Vergabe verwalten | Should | # |
+| 001 | Sichere Anmeldung und Prüfung der Zugangsberechtigung | Must | #22 |
+| 002 | Übersicht der verfügbaren Projektseminare | Must | #23 |
+| 003 | PDF-Beschreibungen der Projektseminare anzeigen | Must | #24 |
+| 004 | Erst-, Zweit- und Drittwunsch auswählen | Must | #25 |
+| 005 | Motivationsschreiben für den Erstwunsch | Must | #26 |
+| 006 | Bewerbung speichern, überprüfen und verbindlich einreichen | Must | #27 |
+| 007 | Bewerbungsstatus und eingereichte Wünsche einsehen | Must | #28 |
+| 008 | Projektseminare und Platzkapazitäten verwalten | Must | #29 |
+| 009 | Bewerbungen einsehen und Studierende zuteilen | Must | #30 |
+| 010 | Änderungen und Ergebnisse der Vergabe verwalten | Should | #31 |
 
 ## Anmeldung und Zugangsberechtigung
 

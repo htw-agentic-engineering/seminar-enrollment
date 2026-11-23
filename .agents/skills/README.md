@@ -18,6 +18,8 @@ Oder der Agent erkennt selbst, dass ein Skill passt (z. B. beim Anlegen einer ne
 | Skill | Wann benutzen |
 |-------|---------------|
 | `spec-writer.md` | Wenn eine neue Spezifikation angelegt werden soll |
+| `product-planner.md` | Am Projektanfang: aus Product Vision und User Stories eine MVP-Definition, ein priorisiertes Product Backlog und einen initialen Sprint-Plan ableiten |
+| `backlog-refiner.md` | Nach jedem Sprint: Sprint-Ergebnisse auswerten, Product Backlog anpassen und den Plan für die kommenden Sprints aktualisieren |
 
 ## Neuen Skill hinzufügen
 
