@@ -103,6 +103,13 @@ Studierende, die sich für ein Projektseminar bewerben müssen, benötigen einen
 | 008 | Projektseminare und Platzkapazitäten verwalten | Must | #29 |
 | 009 | Bewerbungen einsehen und Studierende zuteilen | Must | #30 |
 | 010 | Änderungen und Ergebnisse der Vergabe verwalten | Should | #31 |
+| 011 | Bewerbung bis zum Ablauf der Bewerbungsfrist bearbeiten | Should | #33 |
+| 012 | Bewerbungen nach Projektseminar filtern und sortieren | Should | #34 |
+| 013 | Anzahl der Bewerbungen und Nachfrage pro Projektseminar anzeigen | Should | #35 |
+| 014 | Bewerbungsfrist verwalten und Bewerbungsphase abschließen | Should | #36 |
+| 015 | Bewerbungen mithilfe von KI anhand definierter Kriterien auswerten | Could | #38 (Epic #37) |
+| 016 | Kapazitäts- und wunschbasierte Zuteilungsvorschläge erstellen | Could | #39 (Epic #37) |
+| 017 | Administrative Übersicht für Bewerbungsanalyse und Zuteilungsvorschläge | Could | #40 (Epic #37) |
 
 ## Anmeldung und Zugangsberechtigung
 
