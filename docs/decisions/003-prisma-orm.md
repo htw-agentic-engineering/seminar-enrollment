@@ -2,7 +2,7 @@
 
 > **Status:** Vorgeschlagen
 > **Datum:** 23.11.2026
-> **Beteiligt:** Rico Mauksch, KI-Agent (Claude Code)
+> **Beteiligt:** Rico Mauksch
 
 ## Kontext
 Die Anwendung (ADR-001) greift auf PostgreSQL (ADR-002) zu. Das Datenbankschema wird sich im Laufe

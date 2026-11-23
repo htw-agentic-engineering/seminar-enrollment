@@ -2,7 +2,7 @@
 
 > **Status:** Vorgeschlagen
 > **Datum:** 23.11.2026
-> **Beteiligt:** Rico Mauksch, KI-Agent (Claude Code)
+> **Beteiligt:** Rico Mauksch
 
 ## Kontext
 Professoren bzw. die Administration laden für jedes Projektseminar eine Seminarbeschreibung als PDF hoch

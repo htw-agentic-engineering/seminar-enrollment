@@ -2,7 +2,7 @@
 
 > **Status:** Vorgeschlagen
 > **Datum:** 23.11.2026
-> **Beteiligt:** Rico Mauksch, KI-Agent (Claude Code)
+> **Beteiligt:** Rico Mauksch
 
 ## Kontext
 Das System muss Projektseminare, Platzkapazitäten, Bewerbungen mit Erst-, Zweit- und Drittwunsch,

@@ -2,7 +2,7 @@
 
 > **Status:** Vorgeschlagen
 > **Datum:** 23.11.2026
-> **Beteiligt:** Rico Mauksch, KI-Agent (Claude Code)
+> **Beteiligt:** Rico Mauksch
 
 ## Kontext
 Laut `docs/product/overview.md` erfolgt die Anmeldung über das LDAP-System der Fakultät, die S-Nummer ist

@@ -2,7 +2,7 @@
 
 > **Status:** Vorgeschlagen
 > **Datum:** 23.11.2026
-> **Beteiligt:** Rico Mauksch, KI-Agent (Claude Code)
+> **Beteiligt:** Rico Mauksch
 
 ## Kontext
 Drei Rollen greifen auf das System zu: Studierende (Projektseminare ansehen, Wünsche und Motivationsschreiben
