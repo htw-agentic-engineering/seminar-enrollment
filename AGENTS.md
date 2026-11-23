@@ -1,4 +1,4 @@
-# <Projektname>
+# Seminar-Einschreibung
 
 <!-- Diese Datei liest der Agent in jeder Sitzung. Kurz halten:
      nur, was er IMMER braucht. Details stehen in den verlinkten Dateien. -->
